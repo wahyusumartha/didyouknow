@@ -8,7 +8,10 @@ urlpatterns = patterns('didyouknow.posts.views',
      (r'^$', 'index'),
      (r'^login/$', 'login'),
      (r'^about/$', 'about'),
-     
+     (r'^help/$', 'help'),
+     (r'^site/terms/$', 'term_and_service'),
+     (r'^site/policy/$', 'policy'),
+     (r'^(?P<fullname>\w+)/$', 'show_user')
     # Example:        
     # (r'^didyouknow/', include('didyouknow.foo.urls')),
 
