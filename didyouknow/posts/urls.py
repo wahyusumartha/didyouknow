@@ -7,6 +7,8 @@ admin.autodiscover()
 urlpatterns = patterns('didyouknow.posts.views',
      (r'^$', 'index'),
      (r'^login/$', 'login'),
+     (r'^about/$', 'about'),
+     
     # Example:        
     # (r'^didyouknow/', include('didyouknow.foo.urls')),
 
